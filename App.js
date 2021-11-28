@@ -1,7 +1,7 @@
 import React from "react";
 import {useFormik} from 'formik';
 
-// TODO: import useFormik from formik library
+
 
 function App() {
   const formik = useFormik({
@@ -21,7 +21,7 @@ function App() {
       return errors;
     }        
   });
-  // TODO: add a const called formik assigned to useFormik() 
+   
   //below are the return elements from the user 
   return (
     <div>
